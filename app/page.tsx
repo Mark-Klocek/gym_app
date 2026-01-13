@@ -1,9 +1,9 @@
+import React from 'react'
 
-
-export default function Home() {
+const page = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      Gym app coming soon!
-    </div>
-  );
+    <div className="flex justify-center items-center min-h-screen">Gym App Coming Soon!</div>
+  )
 }
+
+export default page
